@@ -1,10 +1,16 @@
-import { createEvent, createStore, sample } from 'effector';
+import {
+  createEvent, createStore, restore, sample
+} from 'effector';
 import { createGate } from 'effector-react';
 
 import { getShops } from 'shared/api';
 
 
 export const Gate = createGate();
-Gate.open.watch(() => getShops());
 
-export const $shops = createStore([]).on(getShops.doneData, (_, shops) => shops);
+export const $shops = restore(getShops.doneData, null);
+
+sample({
+  clock: Gate.open,
+  target: getShops
+});

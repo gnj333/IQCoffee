@@ -1,6 +1,6 @@
-import { ShopsHeader } from '../shopsHeader/ShopsHeader';
+import { Shops } from '../../../widgets/Shops';
 
 
 export const ShopPage = () => (
-  <ShopsHeader />
+  <Shops />
 );

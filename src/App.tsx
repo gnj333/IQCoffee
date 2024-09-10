@@ -1,14 +1,14 @@
 import { GlobalStyle } from 'shared/globalStyles';
 
 import { Container } from './widgets/styled';
-import { Shops } from './widgets/Shops';
+import { ShopPage } from './pages/shopListPage/shopPage/ShopPage';
 
 
 const App = () => (
   <div className="App">
     <GlobalStyle />
     <Container>
-      <Shops />
+      <ShopPage />
     </Container>
   </div>
 );
