@@ -20,7 +20,9 @@ export const StyledDots = styled.div`
     gap: 50px;
     padding-top: 50px;
     align-items: center;
-    justify-content: center`;
+    justify-content: center;
+    width: 100%;
+    height: 100%;`;
 export const Dot = styled.div`
     width: 20px;
     height: 20px;

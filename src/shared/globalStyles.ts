@@ -20,6 +20,7 @@ export const GlobalStyle = createGlobalStyle`
         border: 0;
         font-size: 100%;
         vertical-align: baseline;
+        
     }
 
     /* HTML5 display-role reset for older browsers */
@@ -27,9 +28,16 @@ export const GlobalStyle = createGlobalStyle`
     footer, header, hgroup, menu, nav, section {
         display: block;
     }
-
+    
+    html {
+        
+    }
+    
     body {
         line-height: 1;
+        
+        
+        
     }
 
     ol, ul {
@@ -54,4 +62,5 @@ export const GlobalStyle = createGlobalStyle`
     * {
         box-sizing: border-box;
         font-family: "Roboto", sans-serif;
+        
     }`;

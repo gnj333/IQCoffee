@@ -1,4 +1,4 @@
-export interface item {
+export interface itemTypes {
   name: string;
   slug: string;
   address: string;
@@ -32,6 +32,6 @@ export interface item {
 }
 
 export interface ShopsItemProps {
-  item: item;
+  item: itemTypes;
   key?: number;
 }

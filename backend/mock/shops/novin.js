@@ -16,7 +16,7 @@ const novin = {
     mainColor: '#FFC633',
     secondColor: '#5DD1B7',
     opacity: '0.24',
-    pattern: 'leaves',
+    pattern: 'morphing',
   },
   categories: [
     {

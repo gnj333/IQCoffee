@@ -5,7 +5,8 @@ export const headerWrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: black;`;
+    background-color: black;
+    background-image: url("/assets/images/Rectangle.png");`;
 
 export const title = styled.h1`
     font-size: 18px;
