@@ -54,12 +54,12 @@ const kalinka = {
     {
       id: 1,
       alt: 'Фото заведения',
-      src: 'https://mayertrade.com.ua/img/cms/BLOGS/264-creatively-designed-cafes/creatively-designed-cafes_5.jpg',
+      src: 'https://media-cdn.tripadvisor.com/media/photo-s/18/be/63/df/caption.jpg',
     },
     {
       id: 2,
       alt: 'Фото заведения',
-      src: '',
+      src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyPndOEHRrWTJ3ztLQ6jQWoJ-j3wtHxvdamQ&s',
     },
     {
       id: 3,
@@ -69,7 +69,7 @@ const kalinka = {
     {
       id: 4,
       alt: 'Фото заведения',
-      src: 'https://mayertrade.com.ua/img/cms/BLOGS/264-creatively-designed-cafes/creatively-designed-cafes_23.jpg',
+      src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS4LypxomR-ThnarkgKuk6ZhdR-x75P934dQ&s',
     },
   ],
 };

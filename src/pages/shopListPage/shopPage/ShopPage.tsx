@@ -1,7 +1,13 @@
-import { Shops } from '../../../widgets/Shops';
-import * as styled from './styled';
+import { Shops } from '@/widgets';
+
+import { ShopsHeader } from '../shopsHeader/ShopsHeader';
+import { Footer } from '../footer/footer';
 
 
 export const ShopPage = () => (
-  <Shops />
+  <>
+    <ShopsHeader />
+    <Shops />
+    <Footer />
+  </>
 );

@@ -11,11 +11,12 @@ background-color: black;
 padding: 0 58px 0 58px;
 border-top-right-radius: 15px;
 border-top-left-radius: 15px;
-position:fixed;
-width: 376px;
-top: 508px`;
+position: sticky;
+z-index: 1;
+bottom: 0;
+margin-top: 20px`;
 
-export const element = styled.div`
+export const Element = styled.div`
 display: flex;
 flex-direction: column;     
 color: white;
@@ -26,6 +27,6 @@ align-items: center;
 padding-top:12px;
 padding-bottom: 5px`;
 
-export const img = styled.img`
+export const Img = styled.img`
 width: 24px;
 height: 24px;`;

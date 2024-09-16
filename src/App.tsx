@@ -1,7 +1,7 @@
-import { GlobalStyle } from 'shared/globalStyles';
+import { GlobalStyle } from '@/shared';
+import { ShopPage } from '@/pages/shopListPage';
 
 import { Container } from './widgets/styled';
-import { ShopPage } from './pages/shopListPage/shopPage/ShopPage';
 
 
 const App = () => (

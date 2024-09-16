@@ -54,7 +54,7 @@ const soviet = {
     {
       id: 1,
       alt: 'Фото заведения',
-      src: 'https://mayertrade.com.ua/img/cms/BLOGS/264-creatively-designed-cafes/creatively-designed-cafes_27.jpg',
+      src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS4LypxomR-ThnarkgKuk6ZhdR-x75P934dQ&s',
     },
   ],
 };

@@ -33,5 +33,11 @@ export interface itemTypes {
 
 export interface ShopsItemProps {
   item: itemTypes;
-  key?: number;
+  key?: string;
+  onClick?: void;
+  isOpen?: string;
+}
+
+export interface Shops {
+  shops: itemTypes[];
 }

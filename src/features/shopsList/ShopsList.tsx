@@ -1,17 +1,18 @@
-import { useUnit } from 'effector-react';
+import React, { useState } from 'react';
 
-import { itemTypes } from 'shared/types';
+import { itemTypes, Shops } from '@/shared';
+import { ShopsItem } from '@/entities';
 
-import { $shops } from '../../widgets/model';
-import { ShopsItem } from '../../entities/shopsItem/ShopsItem';
 import * as styled from './styled';
 
 
-export const ShopsList = () => {
-  const shops = useUnit($shops);
-  return (
-    <styled.cardsWrapper>
-      { shops.map((item: itemTypes) => <ShopsItem key={ item.categories[0].id } item={ item } />) }
-    </styled.cardsWrapper>
-  );
-};
+export const ShopsList: React.FC<Shops> = ({ shops }) => (
+  <styled.CardsWrapper>
+    { shops.map((item: itemTypes) => (
+      <ShopsItem
+        key={ item.slug }
+        item={ item }
+      />
+    )) }
+  </styled.CardsWrapper>
+);

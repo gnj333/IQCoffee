@@ -5,11 +5,13 @@ export const Container = styled.div`
 max-width: 376px;
 margin: 0 auto;`;
 
-export const globalWrapper = styled.div`
-    position: relative;`;
+export const GlobalWrapper = styled.div`
+    display: flex;
+    flex-direction: column;`;
 
-export const shopsWrapper = styled.div`
+export const ShopsWrapper = styled.div`
 width: 100%;
 display: flex;
 flex-direction: column;
-padding-top: 25px;`;
+padding-top: 25px;
+overflow-y: auto`;

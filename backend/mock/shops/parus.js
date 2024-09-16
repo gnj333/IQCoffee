@@ -54,27 +54,27 @@ const parus = {
     {
       id: 1,
       alt: 'Фото заведения',
-      src: 'https://mayertrade.com.ua/img/cms/BLOGS/264-creatively-designed-cafes/creatively-designed-cafes_8.jpg',
+      src: 'https://assets.turbologo.ru/blog/ru/2020/02/18162724/a5a4b6991268b801e30d82bbc757c672-958x575.jpg',
     },
     {
       id: 2,
       alt: 'Фото заведения',
-      src: 'https://maralin.ru/img/catalog_covers/4398-16432099690.jpg',
+      src: 'https://media-cdn.tripadvisor.com/media/photo-s/18/be/63/df/caption.jpg',
     },
     {
       id: 3,
       alt: 'Фото заведения',
-      src: 'https://mayertrade.com.ua/img/cms/BLOGS/264-creatively-designed-cafes/creatively-designed-cafes_11.jpg',
+      src: 'https://burobiz-a.akamaihd.net/uploads/images/103508/large_19-05-2022_18-45-27.jpg',
     },
     {
       id: 4,
       alt: 'Фото заведения',
-      src: 'https://mayertrade.com.ua/img/cms/BLOGS/264-creatively-designed-cafes/creatively-designed-cafes_23.jpg',
+      src: 'https://alterno-ds.ru/d/8f85dc3412785556c4e802b8b40.jpg',
     },
     {
       id: 5,
       alt: 'Фото заведения',
-      src: 'https://mayertrade.com.ua/img/cms/BLOGS/264-creatively-designed-cafes/creatively-designed-cafes_27.jpg',
+      src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3pfr9FafOhqsYNE4ESuHi1zhJ-kfIwf6uZg&s',
     },
   ],
 };

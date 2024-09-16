@@ -3,7 +3,7 @@ import {
 } from 'effector';
 import { createGate } from 'effector-react';
 
-import { getShops } from 'shared/api';
+import { getShops } from '@/shared/api';
 
 
 export const Gate = createGate();
