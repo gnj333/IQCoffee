@@ -10,11 +10,10 @@ background-color: black;
     background-image: url("/assets/images/Rectangle.png");
 padding: 0 58px 0 58px;
 border-top-right-radius: 15px;
-border-top-left-radius: 15px;
+border-top-left-radius: 15px;;
+margin-top: 20px;
 position: sticky;
-z-index: 1;
-bottom: 0;
-margin-top: 20px`;
+bottom: 0;`;
 
 export const Element = styled.div`
 display: flex;

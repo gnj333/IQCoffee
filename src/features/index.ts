@@ -1,1 +1,1 @@
-export { ShopsList } from '@/features/shopsList/ShopsList';
+export { ShopsList } from './shopsList/ShopsList';

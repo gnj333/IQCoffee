@@ -50,7 +50,23 @@ const ocean = {
       name: 'Аксессуары',
     },
   ],
-  photos: [],
+  photos: [
+    {
+      id: 3,
+      alt: 'Фото заведения',
+      src: 'https://media-cdn.tripadvisor.com/media/photo-s/18/be/63/df/caption.jpg',
+    },
+    {
+      id: 4,
+      alt: 'Фото заведения',
+      src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_Ty_Clu3r2ndyEW89MVQr8DIX-gAk8D7jRQ&s',
+    },
+    {
+      id: 5,
+      alt: 'Фото заведения',
+      src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyPndOEHRrWTJ3ztLQ6jQWoJ-j3wtHxvdamQ&s',
+    },
+  ],
 };
 
 module.exports = ocean

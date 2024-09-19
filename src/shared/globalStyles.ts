@@ -20,7 +20,6 @@ export const GlobalStyle = createGlobalStyle`
         border: 0;
         font-size: 100%;
         vertical-align: baseline;
-        
     }
 
     /* HTML5 display-role reset for older browsers */
@@ -30,14 +29,12 @@ export const GlobalStyle = createGlobalStyle`
     }
     
     html {
-        
+        height: 100vh;
     }
     
     body {
         line-height: 1;
-        
-        
-        
+        height: 100vh;
     }
 
     ol, ul {

@@ -35,7 +35,7 @@ export interface ShopsItemProps {
   item: itemTypes;
   key?: string;
   onClick?: void;
-  isOpen?: string;
+  isOpen?: boolean;
 }
 
 export interface Shops {

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-export const CardWrapper = styled.div<{mainColor: string; pattern: string; opacity: string; secondColor: string; open: string}>`
+export const CardWrapper = styled.div<{mainColor: string; pattern: string; opacity: string; secondColor: string; open: boolean}>`
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@ export const CardWrapper = styled.div<{mainColor: string; pattern: string; opaci
 
 }`;
 
-export const TitlesWrapper = styled.div<{open: string}>`
+export const TitlesWrapper = styled.div<{open: boolean}>`
 display: flex;
 flex-direction: column;
 width: 85%;
@@ -42,7 +42,7 @@ color: gray;
 font-family: "Gilroy medium", sans-serif;
 padding: 0 0 12px 20px;`;
 
-export const Arrow = styled.img<{open: string}>`
+export const Arrow = styled.img<{open: boolean}>`
 position: absolute;
 width: 24px;
 height: 24px;
@@ -52,17 +52,21 @@ cursor: pointer;
     transform: ${({ open }) => (open ? 'rotate(180deg)' : '')};`;
 
 
-export const OpenCardWrapper = styled.div<{pattern: string; opacity: string}>`
-display: flex;
+export const OpenCardWrapper = styled.div<{pattern: string; opacity: string; isOpen: boolean}>`
+    display: flex;
     padding: 0 20px 0 20px;
-    flex-direction: column;`;
+    flex-direction: column;
+    max-height: ${({ isOpen }) => (isOpen ? '500px' : '0')};
+    overflow: ${({ isOpen }) => (isOpen ? 'visible' : 'hidden')};
+    position: relative;
+    transition: 0.3s ease-in-out;`;
 
 export const OpenShopCard = styled.div`
-margin-top: 20px;
-background-color: white;
-border-radius: 10px;
-gap: 20px 0;
-padding: 20px 20px 12px 20px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    gap: 20px 0;
+    padding: 20px 20px 12px 20px;
     border: 2px solid black;`;
 
 
@@ -89,8 +93,7 @@ font-size: 9px;
 
 export const NewMenu = styled.div`
 display: flex;
-flex-direction: column;
-padding-left: 12px`;
+flex-direction: column;`;
 
 export const NewMenuIcon = styled.img`
 width: 24px;

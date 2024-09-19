@@ -1,6 +1,4 @@
-import {
-  createEvent, createStore, restore, sample
-} from 'effector';
+import { restore, sample } from 'effector';
 import { createGate } from 'effector-react';
 
 import { getShops } from '@/shared/api';
