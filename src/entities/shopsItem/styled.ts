@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 export const CardWrapper = styled.div<{mainColor: string; pattern: string; opacity: string; secondColor: string; open: boolean}>`
     height: 100%;
+    margin-bottom: ${({ open }) => (open ? '20px' : '')};
     display: flex;
     flex-direction: column;
     border: 2px solid black;

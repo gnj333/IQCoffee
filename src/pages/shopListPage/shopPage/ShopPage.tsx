@@ -1,3 +1,6 @@
+import React from 'react';
+
+
 import { Shops } from '@/widgets';
 
 import { ShopsHeader } from '../shopsHeader/ShopsHeader';

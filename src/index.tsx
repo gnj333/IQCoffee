@@ -1,5 +1,7 @@
 import ReactDOM from 'react-dom/client';
 
+import { appStarted } from '@/shared/routes';
+
 import App from './App';
 
 
@@ -10,3 +12,4 @@ const root = ReactDOM.createRoot(
 root.render(
   <App />
 );
+appStarted();
