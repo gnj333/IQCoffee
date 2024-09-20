@@ -8,7 +8,7 @@ import * as styled from './styled';
 
 export const ShopsList: React.FC<Shops> = ({ shops }) => (
   <styled.CardsWrapper>
-    { shops.map((item: itemTypes, i) => (
+    { shops.map((item: itemTypes) => (
       <ShopsItem
         key={ item.slug }
         item={ item }

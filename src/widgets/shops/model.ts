@@ -8,6 +8,7 @@ export const Gate = createGate();
 
 export const $shops = restore(getShops.doneData, null);
 
+
 sample({
   clock: Gate.open,
   target: getShops

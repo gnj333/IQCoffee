@@ -97,7 +97,6 @@
 
     // https://eslint.org/docs/latest/rules/eol-last
     "eol-last": 1,
-
     // https://eslint.org/docs/latest/rules/linebreak-style
     "linebreak-style": [
       2,

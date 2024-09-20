@@ -1,4 +1,4 @@
-export { getShops } from '@/shared/api/index';
+export { getShops } from './api/index';
 export * from './types';
-export { GlobalStyle } from '@/shared/globalStyles';
-export { Loader } from './ui/loader';
+export { GlobalStyle } from './globalStyles';
+export { Loader } from './ui/loader/loader';

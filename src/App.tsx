@@ -1,6 +1,7 @@
-import { GlobalStyle } from '@/shared';
-import { ShopPage } from '@/pages/shopListPage';
 
+import { Pages } from '@/pages';
+
+import { GlobalStyle } from './shared';
 import { Container } from './widgets/shops/styled';
 
 
@@ -8,7 +9,7 @@ const App = () => (
   <div className="App">
     <GlobalStyle />
     <Container>
-      <ShopPage />
+      <Pages />
     </Container>
   </div>
 );

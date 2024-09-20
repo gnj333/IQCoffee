@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 export const CardWrapper = styled.div<{mainColor: string; pattern: string; opacity: string; secondColor: string; open: boolean}>`
     height: 100%;
+    margin-bottom: ${({ open }) => (open ? '20px' : '')};
     display: flex;
     flex-direction: column;
     border: 2px solid black;
@@ -78,13 +79,8 @@ export const ItemsWrapper = styled.div`
 export const ShopCardItem = styled.div`
 display: flex;
 flex-direction: column;
-padding-right: 20px;`;
-
-export const ShopCardIcons = styled.img`
-    width: 24px;
-    height: 24px;
-    cursor: pointer;
-    padding-bottom: 6px`;
+padding-right: 15px;
+align-items: center;`;
 
 export const ShopCardTitle = styled.h1`
 font-weight: 800;
