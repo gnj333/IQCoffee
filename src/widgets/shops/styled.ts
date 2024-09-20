@@ -9,7 +9,8 @@ flex-direction: column;`;
 
 export const GlobalWrapper = styled.div`
     display: flex;
-    flex-direction: column;`;
+    flex-direction: column;
+    `;
 
 export const ShopsWrapper = styled.div`
 width: 100%;
