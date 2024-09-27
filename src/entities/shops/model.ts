@@ -1,15 +1,13 @@
 import { restore, sample } from 'effector';
-import { createGate } from 'effector-react';
 
 import { getShops } from '@/shared/api';
+import { routes } from '@/shared/routes';
 
-
-export const Gate = createGate();
 
 export const $shops = restore(getShops.doneData, null);
 
 
 sample({
-  clock: Gate.open,
+  clock: routes.shops.opened,
   target: getShops
 });

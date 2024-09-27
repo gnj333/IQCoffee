@@ -84,14 +84,14 @@ const erveMenu = {
         name: "Авторский кофе",
         items: [
           {
-            name: "Раф Ванильный ну очень ванильный",
-            icon: "latte",
+            name: "Раф Ванильный",
+            icon: "coffee",
             slug: "rafael",
             price: "109",
           },
           {
             name: "Раф Сникерс",
-            icon: "latte",
+            icon: "coffee",
             slug: "snickers",
             price: "109",
           },
@@ -159,7 +159,7 @@ const erveMenu = {
         items: [
           {
             name: "Я <З Рауля Эрвье",
-            icon: "latte",
+            icon: "coffee",
             slug: "ervecup",
             size: "450 мл.",
             price: "449",

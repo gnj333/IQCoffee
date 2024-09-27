@@ -52,7 +52,7 @@ const sovietMenu = {
             price: "259",
           },
           {
-            name: "Какао с невероятно большим количеством зефирок",
+            name: "Какао",
             icon: "coffee",
             slug: "cocoa",
             price: "159",
@@ -64,7 +64,7 @@ const sovietMenu = {
         name: "Авторский кофе",
         items: [
           {
-            name: "Раф Ванильный ну очень ванильный",
+            name: "Раф Ванильный",
             icon: "latte",
             slug: "rafael",
             price: "109",

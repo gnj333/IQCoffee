@@ -1,15 +1,15 @@
-import { useGate, useUnit } from 'effector-react';
+import { useUnit } from 'effector-react';
 import React from 'react';
 
-import { getShops, Loader } from '@/shared';
+import { Loader } from '@/shared';
 import { ShopsList } from '@/features';
+import { getShops } from '@/shared/api';
 
-import { $shops, Gate } from './model';
+import { $shops } from '../../entities/shops/model';
 import * as styled from './styled';
 
 
 export const Shops = () => {
-  useGate(Gate);
   const shops = useUnit($shops);
   const isLoading = useUnit(getShops.pending);
   return (
