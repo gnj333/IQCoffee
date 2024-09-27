@@ -16,4 +16,5 @@ export const ShopsWrapper = styled.div`
 width: 100%;
 display: flex;
 flex-direction: column;
-padding-top: 25px;`;
+padding-top: 25px;
+padding-bottom: 50px`;

@@ -13,7 +13,7 @@ const kalinkaMenu = {
             name: 'Эспрессо',
             icon: 'coffee',
             slug: 'espresso',
-            price: '0',
+            price: '50',
           },
           {
             name: 'Фильтр-кофе',
@@ -46,7 +46,7 @@ const kalinkaMenu = {
             price: '129',
           },
           {
-            name: 'Какао с невероятно большим количеством зефирок',
+            name: 'Какао',
             icon: 'coffee',
             slug: 'cocoa',
             price: '159',

@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import { Link } from 'atomic-router-react';
 
 import { ShopsItemProps } from '@/shared';
 import { Icons } from '@/shared/ui/icon/Icon';
 import { Button } from '@/shared/ui/shopsButton/ShopsButton';
+import { routes } from '@/shared/routes';
 
 import * as styled from './styled';
 
@@ -11,7 +13,6 @@ export const ShopsItem: React.FC<ShopsItemProps> = ({
   item
 }) => {
   const [isOpen, setIsOpen] = useState(false);
-
   return (
     <styled.CardWrapper
       className="SHOP-ITEM"
@@ -64,7 +65,9 @@ export const ShopsItem: React.FC<ShopsItemProps> = ({
             )) }
           </styled.PhotosWrapper>
         </styled.PhotosBlock>
-        <Button secondColor={ item.stylebook.secondColor } />
+        <Link params={{ name: item.slug }} to={ routes.catalog }>
+          <Button secondColor={ item.stylebook.secondColor } />
+        </Link>
       </styled.OpenCardWrapper>
     </styled.CardWrapper>
   );

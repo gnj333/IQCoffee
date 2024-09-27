@@ -2,9 +2,9 @@ import React from 'react';
 
 
 import { Shops } from '@/widgets';
+import { Footer } from '@/shared';
 
 import { ShopsHeader } from '../shopsHeader/ShopsHeader';
-import { Footer } from '../footer/footer';
 
 
 export const ShopPage = () => (

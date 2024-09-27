@@ -72,7 +72,7 @@ const parusMenu = {
             price: "259",
           },
           {
-            name: "Какао с невероятно большим количеством зефирок",
+            name: "Какао",
             icon: "coffee",
             slug: "cocoa",
             price: "159",
