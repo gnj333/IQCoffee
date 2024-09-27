@@ -7,17 +7,20 @@ import { createBrowserHistory } from 'history';
 
 export const routes = {
   shops: createRoute(),
+  catalog: createRoute<{name: string}>(),
 };
-
 export const appStarted = createEvent();
-
 export const controls = createRouterControls();
 
-export const router = createHistoryRouter({
+export const route = createHistoryRouter({
   routes: [
     {
       path: '/',
       route: routes.shops,
+    },
+    {
+      path: '/catalog/:name',
+      route: routes.catalog,
     }
   ],
   controls,
@@ -26,5 +29,5 @@ export const router = createHistoryRouter({
 sample({
   clock: appStarted,
   fn: () => createBrowserHistory(),
-  target: router.setHistory,
+  target: route.setHistory,
 });
